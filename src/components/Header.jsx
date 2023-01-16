@@ -27,8 +27,8 @@ export const Header = () => {
         </div>
         <div className="person">
           <RxPerson className="login" />
-          <RxMagnifyingGlass />
-          <AiOutlineShoppingCart />
+          <RxMagnifyingGlass className="search" />
+          <AiOutlineShoppingCart className="shop" />
         </div>
       </div>
       <div className="home">

@@ -4,16 +4,16 @@
   height: 19px;
   padding: 5px 15px;
 }
-
+/*=============CONTAINER=============*/
 .container {
   display: flex;
   width: 100%;
   background: #000;
   color: antiquewhite;
   height: 70px;
-  padding: ;
+  padding: 13px 0;
 }
-
+/*=============MENU============*/
 .menu {
   display: flex;
   width: 100%;
@@ -26,10 +26,34 @@
 .logo {
   display: flex;
   width: 252px;
+  margin-left: 50px;
 }
 
 .menu {
   display: flex;
+}
+/* ============= ICONS MENU ==============*/
+.person {
+  display: flex;
+  margin-right: 50px;
+  padding: 13px 0;
+  gap: 1rem;
+}
+
+.person > .login {
+  display: flex;
+  width: 44px;
+  height: 36px;
+}
+.person > .search {
+  display: flex;
+  width: 44px;
+  height: 36px;
+}
+.person > .shop {
+  display: flex;
+  width: 44px;
+  height: 36px;
 }
 
 .home {
