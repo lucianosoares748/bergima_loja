@@ -10,7 +10,7 @@ export const Header = () => {
   return (
     <>
       <div className="mic">
-        <p>Frete Gratis</p>
+        <p>📣FRETE GRÁTIS EM COMPRAS ACIMA DE R$100📣</p>
       </div>
       <div className="container">
         <div className="logo ">
@@ -22,7 +22,7 @@ export const Header = () => {
             <li>Avaliações</li>
             <li>Blog</li>
             <li>Sobre a Bergima</li>
-            <li>Onde nos encontrar?</li>
+            <li>Suporte</li>
           </ul>
         </div>
         <div className="person">
