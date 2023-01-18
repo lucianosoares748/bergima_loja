@@ -4,7 +4,7 @@ import { CiPercent } from "react-icons/Ci";
 
 export const BoxInfo = () => {
   return (
-    <div className="grid my-3 grid-cols-4 w-auto h-auto">
+    <div className="grid my-3 grid-cols-4 w-full h-auto">
       <div className="flex w-auto h-auto justify-center">
         <BsTruck className="w-9 mr-3 h-9" />
         <p className="uppercase italic font-inter font-bold">
