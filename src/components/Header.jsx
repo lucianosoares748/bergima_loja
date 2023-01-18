@@ -7,16 +7,16 @@ import { AiOutlineShoppingCart } from "react-icons/Ai";
 export const Header = () => {
   return (
     <>
-      <div className="flex mx-auto m-full p-1 container justify-center">
+      <div className="flex font-inter font-normal text-xs mx-auto m-full p-1 container justify-center">
         <p>📣FRETE GRÁTIS EM COMPRAS ACIMA DE R$100📣</p>
       </div>
       <div className="bg-black">
         <div className="container p-4 flex mx-auto">
-          <div className="flex ">
-            <img className="w-[300px]" src={Logo} alt="logo bergima" />
+          <div className="flex w-[330px] ">
+            <img className="" src={Logo} alt="logo bergima" />
           </div>
           <div className="flex w-screen">
-            <ul className="flex m-auto w-full justify-center gap-9 text-white">
+            <ul className="flex font-inter uppercase text-sm font-light m-auto w-full justify-center gap-8 text-white">
               <li>Produtos</li>
               <li>Avaliações</li>
               <li>Blog</li>
