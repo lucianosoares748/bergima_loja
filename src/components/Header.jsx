@@ -16,12 +16,22 @@ export const Header = () => {
             <img className="" src={Logo} alt="logo bergima" />
           </div>
           <div className="flex w-screen">
-            <ul className="flex font-inter uppercase text-sm font-light m-auto w-full justify-center gap-8 text-white">
-              <li>Produtos</li>
-              <li>Avaliações</li>
-              <li>Blog</li>
-              <li>Sobre a Bergima</li>
-              <li>Suporte</li>
+            <ul className="flex font-inter uppercase text-sm font-normal m-auto w-full justify-center gap-6 text-white">
+              <li>
+                <a href="">Produtos</a>
+              </li>
+              <li>
+                <a href="">Avaliações</a>
+              </li>
+              <li>
+                <a href="">Blog</a>
+              </li>
+              <li>
+                <a href="">Sobre a Bergima</a>
+              </li>
+              <li>
+                <a href="">Suporte</a>
+              </li>
             </ul>
           </div>
           <div className="flex w-auto h-auto gap-3 text-white">
