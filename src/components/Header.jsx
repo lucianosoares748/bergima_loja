@@ -14,7 +14,7 @@ export const Header = () => {
       </div>
       <div className="container">
         <div className="logo ">
-          <img src={Logo} alt="" />
+          <img src={Logo} alt="logo bergima" />
         </div>
         <div className="menu">
           <ul className="options">
