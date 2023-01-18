@@ -14,7 +14,7 @@ export const BoxInfo = () => {
           </span>
         </p>
       </div>
-      <div className="flex justify-center">
+      <div className="flex w-auto h-auto justify-center mx-auto">
         <BsCreditCard className="flex mr-3 w-9 h-9" />
         <p className="uppercase italic font-inter font-bold">
           Parcelamos em até
@@ -22,7 +22,7 @@ export const BoxInfo = () => {
           <span className="lowercase not-italic font-normal">5X sem juros</span>
         </p>
       </div>
-      <div className="flex justify-center">
+      <div className="flex w-auto h-auto justify-center mx-auto">
         <BsClock className="flex mr-3 w-8 h-8" />
         <p className="uppercase italic font-inter font-bold">
           Atendimento
@@ -30,7 +30,7 @@ export const BoxInfo = () => {
           <span className="lowercase not-italic font-normal">24Horas</span>
         </p>
       </div>
-      <div className="flex justify-center">
+      <div className="flex w-auto h-auto justify-center mx-auto">
         <CiPercent className="flex mr-3 w-9 h-9" />
         <p className="uppercase italic font-inter font-bold">
           Aproveite os descontos <br />
