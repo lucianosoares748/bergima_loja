@@ -1,11 +1,13 @@
 import "./index.css";
 
 import { Header } from "./components/Header";
+import BoxInfo from "./components/BoxInfo";
 
 function App() {
   return (
-    <div className="App flex flex-col mx-auto bg-white">
+    <div className="App">
       <Header />
+      <BoxInfo />
     </div>
   );
 }
