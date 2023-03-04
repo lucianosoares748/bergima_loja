@@ -13,7 +13,7 @@ export const Header = () => {
       <div className="bg-black">
         <div className="container p-4 flex mx-auto">
           <div className="flex w-[330px] ">
-            <img className="" src={Logo} alt="logo bergima" />
+            <img className="" src={Logo} alt="logo Bergima" />
           </div>
           <div className="flex w-screen">
             <ul className="flex font-inter uppercase text-sm font-normal m-auto w-full justify-center gap-6 text-white">
